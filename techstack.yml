@@ -1,0 +1,373 @@
+repo_name: steveny2k/cxf
+report_id: 27fbb392203f298979c995ea46a0dae4
+repo_type: Public
+timestamp: '2023-11-10T09:44:12+00:00'
+requested_by: amarkevich
+provider: github
+branch: master
+detected_tools_count: 33
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: Project Reactor
+  description: Library for building non-blocking applications on JVM
+  website_url: https://projectreactor.io/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/5807/default_cbd8ab670309059d7e315252d307d409aa40d793.png
+  detection_source: systests/jaxrs/pom.xml
+  last_updated_by: Andriy Redko
+  last_updated_on: 2018-06-04 22:32:16.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source: distribution/src/main/release/samples/js_provider/src/main/resources/impl.jsx
+  last_updated_by: J. Daniel Kulp
+  last_updated_on: 2008-04-23 17:50:00.000000000 Z
+- name: RxJava
+  description: Reactive Extensions for the JVM
+  website_url: https://github.com/ReactiveX/RxJava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2190/6407041.png
+  detection_source: systests/jaxrs/pom.xml
+  last_updated_by: reta
+  last_updated_on: 2016-04-18 01:44:28.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source: tools/javato/ws/pom.xml
+  last_updated_by: Daniel Kulp
+  last_updated_on: 2019-09-05 20:13:58.000000000 Z
+- name: ActiveMQ
+  description: A message broker written in Java together with a full JMS client
+  website_url: http://activemq.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1062/default_08edb6f82e2c79424efc1e297ab096e50acd8e0b.jpg
+  detection_source: testutils/pom.xml
+  last_updated_by: Daniel Kulp
+  last_updated_on: 2020-08-19 18:53:05.000000000 Z
+- name: Apache Derby
+  description: An open source relational database implemented entirely in Java
+  website_url: https://db.apache.org/derby/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/7309/derby.png
+  detection_source: systests/uncategorized/pom.xml
+  last_updated_by: Daniel Kulp
+  last_updated_on: 2020-08-18 16:08:20.000000000 Z
+- name: Ehcache
+  description: Java's Most Widely-Used Cache
+  website_url: http://ehcache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cache
+  image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
+  detection_source: systests/rs-security/pom.xml
+  last_updated_by: Daniel Kulp
+  last_updated_on: 2020-08-19 18:53:05.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source: distribution/src/main/release/samples/ws_transaction/pom.xml
+  last_updated_by: Amos Feng
+  last_updated_on: 2019-07-23 07:23:45.000000000 Z
+- name: HSQLDB
+  description: Leading SQL relational database software written in Java
+  website_url: http://hsqldb.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
+  detection_source: systests/ws-rm/pom.xml
+  last_updated_by: Sergey Beryozkin
+  last_updated_on: 2012-03-13 16:01:30.000000000 Z
+- name: Hazelcast
+  description: Clustering and highly scalable data distribution platform for Java
+  website_url: http://hazelcast.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/2024/default_000f7e56d4be68acfa58a6ea8bd40e65a10e04ff.jpg
+  detection_source: services/sts/systests/basic/pom.xml
+  last_updated_by: Daniel Kulp
+  last_updated_on: 2014-04-02 17:40:41.000000000 Z
+- name: Hibernate
+  description: Idiomatic persistence for Java and relational databases.
+  website_url: http://hibernate.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  detection_source: systests/rs-security/pom.xml
+  last_updated_by: Colm O hEigeartaigh
+  last_updated_on: 2018-07-24 09:48:24.000000000 Z
+- name: Apache CXF
+  description: An open source services framework
+  website_url: http://cxf.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Composable Web Service Framework
+  image_url: https://img.stackshare.io/service/3348/8GCdSdWB_200x200.png
+  detection_source: services/xkms/xkms-itests/pom.xml
+  last_updated_by: Alexey Markevich
+  last_updated_on: 2020-01-28 08:41:03.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Eclipse
+  description: IDE for Java EE Developers
+  website_url: https://www.eclipse.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
+  detection_source: systests/ws-specs/pom.xml
+  last_updated_by: Daniel Kulp
+  last_updated_on: 2020-08-19 18:53:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/codeql-analysis.yml"
+  last_updated_by: Colm O hEigeartaigh
+  last_updated_on: 2020-10-15 06:17:28.000000000 Z
+- name: GlassFish
+  description: The Open Source Java EE Reference Implementation
+  website_url: https://glassfish.java.net
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/3628/515GX-Cc_400x400.jpg
+  detection_source: systests/jaxrs/pom.xml
+  last_updated_by: reta
+  last_updated_on: 2014-08-06 22:27:48.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source: tools/wsdlto/test/pom.xml
+  last_updated_by: J. Daniel Kulp
+  last_updated_on: 2008-04-23 17:50:00.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source: systests/rs-sse/rs-sse-base/src/main/resources/logback.xml
+  last_updated_by: Daniel Kulp
+  last_updated_on: 2014-04-02 17:40:41.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source: systests/jaxws/pom.xml
+  last_updated_by: Colm O hEigeartaigh
+  last_updated_on: 2018-04-19 09:07:12.000000000 Z
+- name: OpenTracing
+  description: Consistent, expressive, vendor-neutral APIs for distributed tracing
+    and context propagation.
+  website_url: http://opentracing.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/6941/ktuguoGc_400x400.jpg
+  detection_source: integration/tracing/tracing-opentracing/pom.xml
+  last_updated_by: Daniel Kulp
+  last_updated_on: 2020-08-19 18:53:05.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source: tools/wsdlto/test/pom.xml
+  last_updated_by: J. Daniel Kulp
+  last_updated_on: 2009-03-19 05:03:16.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source: distribution/src/main/release/samples/ws_transaction/ws_second/src/main/resources/application.properties
+  last_updated_by: Sergey Beryozkin
+  last_updated_on: 2016-07-06 16:06:57.000000000 Z
+- name: Poli
+  description: 'An easy-to-use SQL reporting application '
+  website_url: https://github.com/shzlw/poli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11232/no-img-open-source.png
+  detection_source: systests/ws-specs/pom.xml
+  last_updated_by: J. Daniel Kulp
+  last_updated_on: 2009-03-19 05:03:16.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Swagger UI
+  description: A Collection of HTML, Javascript, and CSS assets that dynamically generate
+    beautiful documentation
+  website_url: https://swagger.io/tools/swagger-ui/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Documentation as a Service & Tools
+  image_url: https://img.stackshare.io/service/3417/pIea9Ji0.png
+  detection_source: rt/rs/description-swagger/pom.xml
+  last_updated_by: Andriy Redko
+  last_updated_on: 2018-06-04 22:32:16.000000000 Z
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source: Repo Metadata
