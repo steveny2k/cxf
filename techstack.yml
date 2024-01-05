@@ -1,7 +1,8 @@
 repo_name: steveny2k/cxf
 report_id: e905b97d7f383b4665d184dd9b4f8fee
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T09:51:48+00:00'
+timestamp: '2024-01-05T08:55:06+00:00'
 requested_by: amarkevich
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/steveny2k/cxf
   detection_source: Repo Metadata
 - name: Groovy
   description: A multi-faceted language for the Java platform
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/steveny2k/cxf
   detection_source: Repo Metadata
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/steveny2k/cxf
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/steveny2k/cxf
   detection_source: Repo Metadata
 - name: Perl
   description: Highly capable, feature-rich programming language with over 26 years
@@ -55,6 +60,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source_url: https://github.com/steveny2k/cxf
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -65,6 +71,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/steveny2k/cxf
   detection_source: Repo Metadata
 - name: Project Reactor
   description: Library for building non-blocking applications on JVM
@@ -74,7 +81,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Java Tools
   image_url: https://img.stackshare.io/service/5807/default_cbd8ab670309059d7e315252d307d409aa40d793.png
-  detection_source: systests/jaxrs/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/rt/rs/extensions/reactor/pom.xml
+  detection_source: rt/rs/extensions/reactor/pom.xml
   last_updated_by: Andriy Redko
   last_updated_on: 2018-06-04 22:32:16.000000000 Z
 - name: React
@@ -86,6 +94,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/distribution/src/main/release/samples/js_provider/src/main/resources/impl.jsx
   detection_source: distribution/src/main/release/samples/js_provider/src/main/resources/impl.jsx
   last_updated_by: J. Daniel Kulp
   last_updated_on: 2008-04-23 17:50:00.000000000 Z
@@ -98,7 +107,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Java Tools
   image_url: https://img.stackshare.io/service/2190/6407041.png
-  detection_source: systests/jaxrs/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/distribution/src/main/release/samples/jax_rs/sse_cdi/pom.xml
+  detection_source: distribution/src/main/release/samples/jax_rs/sse_cdi/pom.xml
   last_updated_by: reta
   last_updated_on: 2016-04-18 01:44:28.000000000 Z
 - name: Spring Framework
@@ -111,7 +121,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
-  detection_source: tools/javato/ws/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/core/pom.xml
+  detection_source: core/pom.xml
   last_updated_by: Daniel Kulp
   last_updated_on: 2019-09-05 20:13:58.000000000 Z
 - name: ActiveMQ
@@ -123,7 +134,8 @@ tools:
   category: Data Stores
   sub_category: Message Queue
   image_url: https://img.stackshare.io/service/1062/default_08edb6f82e2c79424efc1e297ab096e50acd8e0b.jpg
-  detection_source: testutils/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/distribution/javadoc/pom.xml
+  detection_source: distribution/javadoc/pom.xml
   last_updated_by: Daniel Kulp
   last_updated_on: 2020-08-19 18:53:05.000000000 Z
 - name: Apache Derby
@@ -135,7 +147,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/7309/derby.png
-  detection_source: systests/uncategorized/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/rt/ws/rm/pom.xml
+  detection_source: rt/ws/rm/pom.xml
   last_updated_by: Daniel Kulp
   last_updated_on: 2020-08-18 16:08:20.000000000 Z
 - name: Ehcache
@@ -147,7 +160,8 @@ tools:
   category: Data Stores
   sub_category: Cache
   image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
-  detection_source: systests/rs-security/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/distribution/javadoc/pom.xml
+  detection_source: distribution/javadoc/pom.xml
   last_updated_by: Daniel Kulp
   last_updated_on: 2020-08-19 18:53:05.000000000 Z
 - name: H2 Database
@@ -158,6 +172,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/distribution/src/main/release/samples/ws_transaction/pom.xml
   detection_source: distribution/src/main/release/samples/ws_transaction/pom.xml
   last_updated_by: Amos Feng
   last_updated_on: 2019-07-23 07:23:45.000000000 Z
@@ -169,7 +184,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
-  detection_source: systests/ws-rm/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/rt/rs/extensions/search/pom.xml
+  detection_source: rt/rs/extensions/search/pom.xml
   last_updated_by: Sergey Beryozkin
   last_updated_on: 2012-03-13 16:01:30.000000000 Z
 - name: Hazelcast
@@ -180,7 +196,8 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/2024/default_000f7e56d4be68acfa58a6ea8bd40e65a10e04ff.jpg
-  detection_source: services/sts/systests/basic/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/distribution/javadoc/pom.xml
+  detection_source: distribution/javadoc/pom.xml
   last_updated_by: Daniel Kulp
   last_updated_on: 2014-04-02 17:40:41.000000000 Z
 - name: Hibernate
@@ -191,7 +208,8 @@ tools:
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
-  detection_source: systests/rs-security/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/rt/rs/extensions/search/pom.xml
+  detection_source: rt/rs/extensions/search/pom.xml
   last_updated_by: Colm O hEigeartaigh
   last_updated_on: 2018-07-24 09:48:24.000000000 Z
 - name: Apache CXF
@@ -202,7 +220,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Composable Web Service Framework
   image_url: https://img.stackshare.io/service/3348/8GCdSdWB_200x200.png
-  detection_source: services/xkms/xkms-itests/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/osgi/itests/pom.xml
+  detection_source: osgi/itests/pom.xml
   last_updated_by: Alexey Markevich
   last_updated_on: 2020-01-28 08:41:03.000000000 Z
 - name: Docker
@@ -214,6 +233,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/steveny2k/cxf
   detection_source: Repo Metadata
 - name: Eclipse
   description: IDE for Java EE Developers
@@ -223,7 +243,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
-  detection_source: systests/ws-specs/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/distribution/javadoc/pom.xml
+  detection_source: distribution/javadoc/pom.xml
   last_updated_by: Daniel Kulp
   last_updated_on: 2020-08-19 18:53:05.000000000 Z
 - name: Git
@@ -234,6 +255,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/steveny2k/cxf
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -243,6 +265,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/.github/workflows/codeql-analysis.yml
   detection_source: ".github/workflows/codeql-analysis.yml"
   last_updated_by: Colm O hEigeartaigh
   last_updated_on: 2020-10-15 06:17:28.000000000 Z
@@ -254,7 +277,8 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/3628/515GX-Cc_400x400.jpg
-  detection_source: systests/jaxrs/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/distribution/src/main/release/samples/jax_rs/search/pom.xml
+  detection_source: distribution/src/main/release/samples/jax_rs/search/pom.xml
   last_updated_by: reta
   last_updated_on: 2014-08-06 22:27:48.000000000 Z
 - name: JUnit
@@ -266,7 +290,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2020/874086.png
-  detection_source: tools/wsdlto/test/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/core/pom.xml
+  detection_source: core/pom.xml
   last_updated_by: J. Daniel Kulp
   last_updated_on: 2008-04-23 17:50:00.000000000 Z
 - name: Logback
@@ -277,7 +302,8 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
-  detection_source: systests/rs-sse/rs-sse-base/src/main/resources/logback.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/distribution/javadoc/pom.xml
+  detection_source: distribution/javadoc/pom.xml
   last_updated_by: Daniel Kulp
   last_updated_on: 2014-04-02 17:40:41.000000000 Z
 - name: Mockito
@@ -289,7 +315,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
-  detection_source: systests/jaxws/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/integration/cdi/pom.xml
+  detection_source: integration/cdi/pom.xml
   last_updated_by: Colm O hEigeartaigh
   last_updated_on: 2018-04-19 09:07:12.000000000 Z
 - name: OpenTracing
@@ -302,7 +329,8 @@ tools:
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/6941/ktuguoGc_400x400.jpg
-  detection_source: integration/tracing/tracing-opentracing/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/distribution/javadoc/pom.xml
+  detection_source: distribution/javadoc/pom.xml
   last_updated_by: Daniel Kulp
   last_updated_on: 2020-08-19 18:53:05.000000000 Z
 - name: SLF4J
@@ -313,7 +341,8 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
-  detection_source: tools/wsdlto/test/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/benchmark/performance/soap_http_doc_lit/pom.xml
+  detection_source: benchmark/performance/soap_http_doc_lit/pom.xml
   last_updated_by: J. Daniel Kulp
   last_updated_on: 2009-03-19 05:03:16.000000000 Z
 - name: Apache Camel
@@ -325,7 +354,8 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
-  detection_source: distribution/src/main/release/samples/ws_transaction/ws_second/src/main/resources/application.properties
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/distribution/src/main/release/samples/jax_rs/spring_boot/src/main/resources/application.properties
+  detection_source: distribution/src/main/release/samples/jax_rs/spring_boot/src/main/resources/application.properties
   last_updated_by: Sergey Beryozkin
   last_updated_on: 2016-07-06 16:06:57.000000000 Z
 - name: Poli
@@ -337,7 +367,8 @@ tools:
   category: Analytics
   sub_category: Business Intelligence
   image_url: https://img.stackshare.io/service/11232/no-img-open-source.png
-  detection_source: systests/ws-specs/pom.xml
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/benchmark/performance/soap_http_doc_lit/pom.xml
+  detection_source: benchmark/performance/soap_http_doc_lit/pom.xml
   last_updated_by: J. Daniel Kulp
   last_updated_on: 2009-03-19 05:03:16.000000000 Z
 - name: Shell
@@ -349,6 +380,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/steveny2k/cxf
   detection_source: Repo Metadata
 - name: Swagger UI
   description: A Collection of HTML, Javascript, and CSS assets that dynamically generate
@@ -360,6 +392,7 @@ tools:
   category: Application Utilities
   sub_category: Documentation as a Service & Tools
   image_url: https://img.stackshare.io/service/3417/pIea9Ji0.png
+  detection_source_url: https://github.com/steveny2k/cxf/blob/master/rt/rs/description-swagger/pom.xml
   detection_source: rt/rs/description-swagger/pom.xml
   last_updated_by: Andriy Redko
   last_updated_on: 2018-06-04 22:32:16.000000000 Z
@@ -370,4 +403,5 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/steveny2k/cxf
   detection_source: Repo Metadata
