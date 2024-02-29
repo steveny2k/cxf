@@ -2,7 +2,7 @@ repo_name: steveny2k/cxf
 report_id: e905b97d7f383b4665d184dd9b4f8fee
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:55:06+00:00'
+timestamp: '2024-02-29T18:34:49+00:00'
 requested_by: amarkevich
 provider: github
 branch: master
@@ -359,7 +359,7 @@ tools:
   last_updated_by: Sergey Beryozkin
   last_updated_on: 2016-07-06 16:06:57.000000000 Z
 - name: Poli
-  description: 'An easy-to-use SQL reporting application '
+  description: An easy-to-use SQL reporting application
   website_url: https://github.com/shzlw/poli
   license: MIT
   open_source: true
